@@ -1,0 +1,17 @@
+{
+  "name": "tongci-xiangjian",
+  "version": "1.1.0",
+  "private": true,
+  "description": "同词相见 · 和朋友的脑回路碰个面 —— 基于公共 MQTT 服务器的实时联机静态网页",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node tests/serve.mjs",
+    "test": "node --test tests/engine.test.mjs",
+    "test:mqtt": "node tests/mqtt-smoke.mjs",
+    "test:e2e": "node tests/e2e.mjs"
+  },
+  "devDependencies": {
+    "mqtt": "^5.10.1",
+    "playwright-core": "^1.49.1"
+  }
+}
