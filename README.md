@@ -56,6 +56,8 @@ npm run serve    # → http://127.0.0.1:4173
 
 把 `index.html`、`assets/`、`vendor/`（以及可选的 `docs/`）原样上传到任意静态托管即可，例如 GitHub Pages、Vercel、Netlify、对象存储。**没有构建步骤。**
 
+> GitHub Pages 注意：GitHub Free 计划下，Pages 仅支持**公开仓库**；私有仓库开启 Pages 需要 GitHub Pro / Team / Enterprise。若仓库保持私有，可以选择把静态站点部署到 Cloudflare Pages / Netlify 等外部托管，或单独建一个只放站点文件的公开仓库来承载 Pages。
+
 分享给朋友时使用房间页的「复制邀请」，会复制类似：
 
 ```text
